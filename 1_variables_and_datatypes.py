@@ -8,7 +8,7 @@
 # Step 5: End
 
 # Let's write that algorithm in Python code:
-num1 = 5 #integer dtat type
+num1 = 5 #integer data type
 num2 = 7 #integer data type
 sum_result = num1 + num2
 print("The sum is:", sum_result)
@@ -56,7 +56,7 @@ print(f"{name} is {age} years old. Hungry? {hungry}")
 
 # # 3. Avoid using Python keywords and symbols
 # # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
-# cannot use class, def, return, for, etc.
+#Cannoy use class, def, return, for, etc.
 # # Example (VALID):
 # loop_word = "test"
 
