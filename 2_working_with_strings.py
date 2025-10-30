@@ -39,7 +39,17 @@ print("Is Uppercase?", phrase2.isupper())
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
-
+chicago_mayor = "Johnson"
+print(chicago_mayor[:4])
+print(chicago_mayor[4:])
+print(chicago_mayor[1:5])
+#when we get one character/letter
+#its called string indexing
+#when we get a chink of letters from a string its called string slicing
+phrase3 = "Supercagifragilstic"
+print(phrase3.upper())
+print(phrase3[0:5])
+print(phrase3[5:9])
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
@@ -55,7 +65,10 @@ print("Is Uppercase?", phrase2.isupper())
 # # ----------------------------------------
 # # 7. Strings: Advanced Concepts
 # # ----------------------------------------
-
+words=sentence.split()
+print("split result:", words)
+words2= sentence.join(",")
+print(words2)
 # # Creating Strings: use single or double quotes
 # greeting1 = 'Hello'
 # greeting2 = "Hi there"
@@ -67,17 +80,7 @@ print("Is Uppercase?", phrase2.isupper())
 # # ----------------------------------------
 # # String Methods
 # # ----------------------------------------
-chicago_mayor = "Johnson"
-print(chicago_mayor[:4])
-print(chicago_mayor[4:])
-print(chicago_mayor[1:5])
-#when we get one character/letter
-#its called string indexing
-#when we get a chink of letters from a string its called string slicing
-phrase3 = "Supercagifragilstic"
-print(phrase3.upper())
-print(phrase3[0:5])
-print(phrase3[5:9])
+
 # sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
