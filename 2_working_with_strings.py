@@ -74,6 +74,10 @@ print(chicago_mayor[1:5])
 #when we get one character/letter
 #its called string indexing
 #when we get a chink of letters from a string its called string slicing
+phrase3 = "Supercagifragilstic"
+print(phrase3.upper())
+print(phrase3[0:5])
+print(phrase3[5:9])
 # sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
