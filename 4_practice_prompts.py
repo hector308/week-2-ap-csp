@@ -106,3 +106,4 @@ print(f"Hello, your full name is {name} {surname}")
 fname= input("What is your full name?")
 fcolor= input("what is your favorite colro?")
 print(f"{fname} you like the color {fcolor}")
+
